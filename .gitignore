@@ -22,6 +22,8 @@
 *.lst
 *.symtypes
 *.order
+*.md5
+*.zip
 modules.builtin
 !drivers/mfd/cg2900/modules.order
 *.elf
@@ -33,7 +35,7 @@ modules.builtin
 *.lzo
 *.patch
 *.gcno
-
+makeall
 #
 # Top-level generic files
 #
