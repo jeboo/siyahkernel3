@@ -1,0 +1,7 @@
+#!/bin/bash
+
+. ../../kernenv.sh
+make clean
+./build_s2_kernel.sh
+../../maketar.sh
+
