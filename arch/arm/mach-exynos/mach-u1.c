@@ -5021,6 +5021,7 @@ struct gpio_keys_button u1_buttons[] = {
 		.debounce_interval = 10,
 	},			/* power key */
 #if !defined(CONFIG_MACH_U1_NA_SPR) && !defined(CONFIG_MACH_U1_NA_USCC)
+#if !defined(CONFIG_TARGET_LOCALE_NAATT_TEMP)
 	{
 		.code = KEY_HOME,
 		.gpio = GPIO_OK_KEY,
@@ -5029,6 +5030,7 @@ struct gpio_keys_button u1_buttons[] = {
 		.wakeup = 1,
 		.debounce_interval = 10,
 	},			/* ok key */
+#endif
 #endif
 };
 
